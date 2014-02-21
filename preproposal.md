@@ -6,12 +6,12 @@ prioritize areas for conservation. However, the challenges common in many areas
 of data science are often magnified in ecology. These include highly
 heterogeneous data across systems and studies, an unprecedented volume and
 velocity of data that is now being collected using sensor networks and remote
-sensing, and the lack ecologists with the necessary training to deal with this
-kind of data. However, the discipline has failed to embrace data-intensive
+sensing, and the lack of ecologists with the necessary training to deal with this
+magnitude of data. However, the discipline has failed to embrace data-intensive
 approaches. Ecology needs leaders in data science to: 1) demonstrate the value
 of data-intensive approaches in ecology; 2) mine, assemble, and model existing
-data; 3) integrate existing data with the large amounts of data being generated
-by emerging approaches to automated data collection and citizen science; and 4)
+data; 3) integrate existing data with the large amounts of data now being generated
+by automated data collection and citizen science; and 4)
 train ecologists in the tools and approaches necessary for data-intensive
 science.
 
@@ -33,7 +33,7 @@ processes driving ecosystems, test ecological models, and make predictions
 regarding ecological systems. We have developed novel approaches to
 understanding patterns of biodiversity based on dividing species into resident
 and transient species using the structure of their population time-series
-(Hurlbert & White 2005, White & Hurlbert 2010, Coyle et al. 2013). We have lead
+(Hurlbert & White 2005, White & Hurlbert 2010, Coyle et al. 2013). We have led
 the way in strong general tests of ecological theory by creating the largest
 combined datasets ever used in community ecology and using them to evaluate and
 compare ecological theories (White et al. 2006, Thibault et al. 2011, White et
@@ -78,66 +78,67 @@ writing papers on
 [data management and sharing](http://doi.org/10.4033/iee.2013.6b.6.f),
 [best practices in computational science](http://doi.org/10.1371/journal.pbio.1001745),
 and
-[the need for preprints in biology](http://doi.org/10.1371/journal.pbio.1001563)
-(all written in the open); and 3) explaining the importance of these approaches
-on my [blog](http://jabberwockyecology.org)) and through my active presence on
+[the need for preprints in biology](http://doi.org/10.1371/journal.pbio.1001563);
+and 3) explaining the importance of these approaches on my
+[blog](http://jabberwockyecology.org)) and through my active presence on
 [Twitter](https://twitter.com/ethanwhite).
 
 
 ## Future Research Directions
 
-My research interests focus on data driven modeling of ecological systems. I
-will focus my efforts in three areas: 1) tying data and theory together more
-tightly by expanding the use of data-centric approaches to model development in
+My future research directions involve working in three key areas that will
+create a foundation for data-intensive ecology: 1) tying data and
+theory together more tightly by expanding the use of data-driven modeling in
 ecology (e.g., machine learning, hierarchical modeling); 2) leveraging existing
 data to test, improve, and make predictions using process based models; and 3)
 developing tools and personnel to help scientists handle the challenges of
 ecological data.
 
-My group has been working extensively with entropy maximization models, which
-model the expected state of a system based on a set empirical constraints. We
-will build on this foundation by expanding more generally into machine learning
-and hierarchical modeling to make predictions for ecological patterns and
-processes across scales. We will develop a suite of master models to address
-core questions about biodiversity, population dynamics, and ecosystem processes,
-including biosphere influences on carbon fluxes and global change. Specifically,
-we will develop models for the distribution of individuals of species across the
-globe, the traits of those individuals, and the dynamics of both counts and
-traits over time. These models use large compilations of climate, land use, and
-ecological data as predictors, including data on the abundances of other species
-and their potential interactions both within and across taxonomic groups (e.g.,
-birds compete with other birds for food and require plants for food and
-nesting). These models will be trained and tested using compilations of
-ecological data from across ecosystems and taxonomic groups, including an
-expanded version of our current compilation (which currently includes data on
-the distribution of ~50 million individual organisms), text mining data on
-interactions among species, and growing compilations of individual level trait
-data (~2.5 million trait values).
+My data-driven modeling efforts have so far focused on entropy maximization
+models, which predict the state of a system based on a set of empirical
+constraints. We will build on this foundation by expanding more generally into
+machine learning and hierarchical modeling to make predictions for ecological
+patterns and processes across scales. We will develop a suite of master models
+to address core questions about biodiversity, population dynamics, and ecosystem
+processes, including biosphere influences on carbon fluxes and global
+change. Specifically, we will develop models for the distribution of individuals
+of species across the globe, the traits of those individuals, and the dynamics
+of both counts and traits over time. These models use large compilations of
+climate, land use, and ecological data as predictors, including data on the
+abundances of other species and their potential interactions both within and
+across taxonomic groups (e.g., birds compete with other birds for food and
+require plants for food and nesting). These models will be trained and tested
+using compilations of ecological data from across ecosystems and taxonomic
+groups, including an expanded version of our current compilation (which
+currently includes data on the distribution of ~50 million individual
+organisms), text mining data on interactions among species, and growing
+compilations of individual level trait data (~2.5 million trait values).
 
-In addition to data-centric modeling efforts we will use large amounts of
-ecological data to test, improve, and make predictions using process based
-models. We will conduct strong tests and comparisons of population, community,
-and ecosystem level models by evaluating their performance across ecosystems and
-taxonomic groups, testing all of their predictions simultaneously using
-independent data, and directly comparing predictions of different models for the
-same patterns. Specifically we will focus on models relating population dynamics
-to environmental drivers, unified community theories making predictions for
-large numbers of ecological patterns, and ecosystem models that relate
-properties of the organisms at a site to the system level fluxes.  The
-information from these comparisons will be used to identify the most promising
-models for making broad scale ecological predictions, to identify aspects of
-these models that require improvement, and to change or constrain these models
-to yield improved predictions for ecological systems.
+I will leverage the large amounts of data currently being generated in ecology
+to provide improved testing of process based ecological theories. We will
+conduct strong tests and comparisons of population, community, and ecosystem
+level models by evaluating their performance across ecosystems and taxonomic
+groups, testing all of their predictions simultaneously using independent data,
+and directly comparing predictions of different models for the same
+patterns. Specifically we will focus on models relating population dynamics to
+environmental drivers, unified community theories making predictions for large
+numbers of ecological patterns, and ecosystem models that relate properties of
+the organisms at a site to the system level fluxes.  The information from these
+comparisons will be used to identify the most promising models for making broad
+scale ecological predictions, to identify aspects of these models that require
+improvement, and to change or constrain these models to yield improved
+predictions for ecological systems.
 
-I will continue to build on my efforts to make data-intensive ecology easier,
-more robust, and more reproducible. We plan to add provenance tracking and
-automated reproducibilty features to the EcoData Retriever that will allow data
-processing steps to be documented and easily reproduced. I will develop new
-tools to make it easier to combine ecological, environmental, taxonomic, and
-other datasets in reproducible ways to allow ecologists to quickly make use of
-the broad array of data that relates to ecological systems. To address the lack
-of training for scientists in data-intensive approaches I will participate in
-the development of a new set of Data Carpentry material that builds on Software
-Carpentry's knowledge and successes to train the next generation of
-scientists. In combination this research, tool building, and training will help
-establish a data-intensive era for ecology.
+To help ecologists handle the challenges of data-intensive science I will
+continue to expand my efforts to make data-intensive ecology easier, more
+robust, and more reproducible. I plan to add provenance tracking and automated
+reproducibilty features to the EcoData Retriever that will allow data processing
+steps to be documented and easily reproduced. I will develop new tools to make
+it easier to combine ecological, environmental, taxonomic, and other datasets in
+reproducible ways to allow ecologists to quickly make use of the broad array of
+data that relates to ecological systems. To address the lack of training for
+scientists in data-intensive approaches I will participate in the development of
+a new set of Data Carpentry material that builds on Software Carpentry's
+knowledge and successes to train the next generation of scientists. In
+combination this research, tool building, and training will help establish a
+data-intensive era for ecology.
