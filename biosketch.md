@@ -66,8 +66,8 @@ communities. Global Ecology and Biogeography
 
 Xiao, X., White, E.P., M.B. Hooten, and S.L. Durham. 2011. On the use of
 log-transformation vs. nonlinear regression for analyzing biological
-power-laws. Ecology 92:
-1887-1894. [http://doi.org/10.1890/11-0538.1](http://doi.org/10.1890/11-0538.1)
+power-laws. Ecology
+92:1887-1894. [http://doi.org/10.1890/11-0538.1](http://doi.org/10.1890/11-0538.1)
 
 White, E.P. and A.H. Hurlbert. 2010. The combined influence of the local
 environment and regional enrichment on bird species richness. American
@@ -84,9 +84,10 @@ models in biology using hierarchical Bayesian approaches. Ecology Letters
 allows ecologists to collaborate on the discovery and use of available
 ecological datasets ([http://ecologicaldata.org](http://ecologicaldata.org)).
 
-**EcoData Retriever:** Leader of open source software project that downloads,
-cleans up, restructures, and installs ecological datasets so that scientists
-focus on doing science ([http://ecodataretriever.org](http://ecodataretriever.org)).
+**EcoData Retriever:** Leader of an open source software project that downloads,
+cleans up, restructures, and installs ecological datasets so that scientists can
+focus on doing science
+([http://ecodataretriever.org](http://ecodataretriever.org)).
 
 **Computational Biology Course & Website Development:** Developed a suite of
 university courses on computational methods for biologists. Course material is
@@ -94,9 +95,10 @@ available online to facilitate broader learning
 ([http://programmingforbiologists.org](http://programmingforbiologists.org)) and
 has been viewed over 125,000 times by users in over 150 countries.
 
-**Software Carpentry:** Advisory board member, instructor, and lead maintainer of
-intermediate material for a non-profit providing online and in-person
-training in computation to scientists ([http://software-carpentry.org](http://software-carpentry.org)).
+**Software Carpentry:** Advisory board member, instructor, and maintainer of
+intermediate material for a non-profit that provides online and in-person
+training in computational best practices to scientists
+([http://software-carpentry.org](http://software-carpentry.org)).
 
 **Impactstory Board of Directors:** Member of the board of directors for
 [Impactstory](http://impactstory.org/), a non-profit whose goal is to improve
