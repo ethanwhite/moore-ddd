@@ -31,7 +31,7 @@ NSF Graduate Research Fellowship 2000-2005
 Morris, B.D. and E.P. White. 2013. The EcoData Retriever: improving access to
 existing ecological data. PLOS ONE
 8:e65848. [http://doi.org/doi:10.1371/journal.pone.0065848](http://doi.org/doi:10.1371/journal.pone.0065848).
-[Website](http://ecodataretriever.org). [GitHub](https://github.com/weecology/retriever)
+[Website](http://ecodataretriever.org). [GitHub](https://github.com/weecology/retriever).
 
 Locey, K.J. and E.P. White. 2013. How species richness and total abundance
 constrain the distribution of abundance. Ecology
@@ -56,7 +56,7 @@ species richness. Philosophical Transactions of the Royal Society B
 
 Wilson, G., D.A. Aruliah, C.T. Brown, N.P. Chue Hong, M. Davis, R.T. Guy,
 S.H.D. Haddock, K. Huff, I. Mitchell, M. Plumbley, B. Waugh, E.P. White, and
-P. Wilson. 2014. Best Practices for Scientific Computing. PLOS
+P. Wilson. 2014. Best practices for scientific computing. PLOS
 Biology. 12:e1001745. [http://doi.org/10.1371/journal.pbio.1001745](http://doi.org/10.1371/journal.pbio.1001745)
 
 Thibault, K.M., E.P. White, A.H. Hurlbert, and
