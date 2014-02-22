@@ -48,12 +48,12 @@ unsurveyed locations.
 **Software Development:** Conducting this type of research requires the
 time-consuming assembly of numerous heterogeneous datasets. Typically every
 scientist writes custom code to handle the data or assembles them by hand. This
-wastes time and effort organizing data instead of science. My group built the
-[EcoData Retriever](http://ecodataretriever.org) to address this problem. It
-automates the discovery, downloading, cleaning, and reformatting of ecological
-data. This simplifies the process of finding, acquiring, and using data and
-therefore increases the use of the diversity of ecological datasets. Altmetrics
-show that the Retriever is both
+wastes time and effort organizing data that could be spent doing science. My
+group built the [EcoData Retriever](http://ecodataretriever.org) to address this
+problem. It automates the discovery, downloading, cleaning, and reformatting of
+ecological data. This simplifies the process of finding, acquiring, and using
+data and therefore increases the use of the diversity of ecological
+datasets. Altmetrics show that the Retriever is both
 [highly recommended and highly cited](http://impactstory.org/ethanwhite/product/37058b0ebf0a11e1bdf912313d1a5e63)
 (stars and forks on GitHub in the 91-99%tile), the associated paper is in the
 [97th percentile of impact for scientific papers](http://www.altmetric.com/details.php?citation_id=1555657),
@@ -80,7 +80,7 @@ writing papers on
 and
 [the need for preprints in biology](http://doi.org/10.1371/journal.pbio.1001563);
 and 3) explaining the importance of these approaches on my
-[blog](http://jabberwockyecology.org)) and through my active presence on
+[blog](http://jabberwockyecology.org) and through my active presence on
 [Twitter](https://twitter.com/ethanwhite).
 
 
@@ -103,7 +103,7 @@ to address core questions about biodiversity, population dynamics, and ecosystem
 processes, including biosphere influences on carbon fluxes and global
 change. Specifically, we will develop models for the distribution of individuals
 of species across the globe, the traits of those individuals, and the dynamics
-of both counts and traits over time. These models use large compilations of
+of both counts and traits over time. These models will use large compilations of
 climate, land use, and ecological data as predictors, including data on the
 abundances of other species and their potential interactions both within and
 across taxonomic groups (e.g., birds compete with other birds for food and
@@ -120,7 +120,7 @@ conduct strong tests and comparisons of population, community, and ecosystem
 level models by evaluating their performance across ecosystems and taxonomic
 groups, testing all of their predictions simultaneously using independent data,
 and directly comparing predictions of different models for the same
-patterns. Specifically we will focus on models relating population dynamics to
+patterns. Specifically, we will focus on models relating population dynamics to
 environmental drivers, unified community theories making predictions for large
 numbers of ecological patterns, and ecosystem models that relate properties of
 the organisms at a site to the system level fluxes.  The information from these
@@ -140,5 +140,5 @@ data that relates to ecological systems. To address the lack of training for
 scientists in data-intensive approaches I will participate in the development of
 a new set of Data Carpentry material that builds on Software Carpentry's
 knowledge and successes to train the next generation of scientists. In
-combination this research, tool building, and training will help establish a
+combination, this research, tool building, and training will help establish a
 data-intensive era for ecology.
