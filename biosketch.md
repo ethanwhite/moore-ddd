@@ -5,7 +5,7 @@ Department of Biology and the Ecology Center, Utah State University, Logan, UT
 [http://ethanwhite.org](http://ethanwhite.org),
 [ethan.white@usu.edu](mailto:ethan.white@usu.edu), 435-760-1909
 
-## Professional preparation
+## Professional Preparation
 
 2005 \hspace{4mm} PhD Biology (with distinction), University of New Mexico  
 1998 \hspace{4mm} BA Biology (*magna cum laude*), Colorado College
