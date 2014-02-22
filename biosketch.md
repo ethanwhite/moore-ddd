@@ -98,8 +98,8 @@ has been viewed over 125,000 times by users in over 150 countries.
 intermediate material for a non-profit providing online and in-person
 training in computation to scientists ([http://software-carpentry.org](http://software-carpentry.org)).
 
-**Impact Story Board of Directors:** Member of the board of directors for
-[Impact Story](http://impactstory.org/), a non-profit whose goal is to improve
+**Impactstory Board of Directors:** Member of the board of directors for
+[Impactstory](http://impactstory.org/), a non-profit whose goal is to improve
 the practice of science by providing tools to quantify the broad impact of
 diverse research products including software, datasets, presentations and
 publications.
