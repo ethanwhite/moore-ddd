@@ -2,23 +2,23 @@
 
 Department of Biology and the Ecology Center, Utah State University, Logan, UT
 84322  
-Senior Scientist, Sevilleta Long-Term Ecological Research Station  
-http://ethanwhite.org, ethan.white@usu.edu, 435-760-1909
+[http://ethanwhite.org](http://ethanwhite.org),
+[ethan.white@usu.edu](mailto:ethan.white@usu.edu), 435-760-1909
 
 ## Professional preparation
 
-2005   PhD Biology (with distinction), University of New Mexico  
-1998   BA Biology (*magna cum laude*), Colorado College
+2005 \hspace{4mm} PhD Biology (with distinction), University of New Mexico  
+1998 \hspace{4mm} BA Biology (*magna cum laude*), Colorado College
 
 ## Appointments
 
-2012-Associate Professor, Dept. of Biology and Ecology Center, Utah
+2012- \hspace{10mm} Associate Professor, Dept. of Biology and Ecology Center, Utah
 State University  
-2012-       Senior Scientist, Sevilleta Long-Term Ecological Research
+2012- \hspace{10mm} Senior Scientist, Sevilleta Long-Term Ecological Research
 Station  
-2007-2012	Assistant Professor, Dept. of Biology and Ecology Center, Utah State
+2007-2012  \hspace{2mm} Assistant Professor, Dept. of Biology and Ecology Center, Utah State
 University  
-2005-2007	NSF Postdoctoral Fellow in Biological Informatics, Univ. of AZ & U.C. Merced
+2005-2007 \hspace{2mm} NSF Postdoctoral Fellow in Biological Informatics, Univ. of AZ & U.C. Merced
 
 ## Awards and Fellowships
 
@@ -28,43 +28,81 @@ NSF Graduate Research Fellowship 2000-2005
 
 ## Five Most Relevant Publications and Products
 
+Morris, B.D. and E.P. White. 2013. The EcoData Retriever: improving access to
+existing ecological data. PLOS ONE
+8:e65848. [http://doi.org/doi:10.1371/journal.pone.0065848](http://doi.org/doi:10.1371/journal.pone.0065848).
+[Website](http://ecodataretriever.org). [GitHub](https://github.com/weecology/retriever)
+
+Locey, K.J. and E.P. White. 2013. How species richness and total abundance
+constrain the distribution of abundance. Ecology
+Letters. 16:1177-1185. [http://doi.org/10.1111/ele.12154](http://doi.org/10.1111/ele.12154)
+
+White, E.P., E. Baldridge, Z.T. Brym, K.J. Locey, D.J. McGlinn,
+S.R. Supp. 2013. Nine simple ways to make it easier to (re)use your data. Ideas
+in Ecology and Evolution
+6(2):1-10. [http://doi.org/10.4033/iee.2013.6b.6.f](http://doi.org/10.4033/iee.2013.6b.6.f)
+
+White, E.P., K.M. Thibault, and X. Xiao. 2012. Characterizing species-abundance
+distributions across taxa and ecosystems using a simple maximum entropy
+model. Ecology 93:1772-1778. [http://doi.org/10.1890/11-2177.1](http://doi.org/10.1890/11-2177.1)
+
+White, E.P., S.K.M. Ernest, P.B. Adler, A.H. Hurlbert, and
+S.K. Lyons. 2010. Integrating spatial and temporal approaches to understanding
+species richness. Philosophical Transactions of the Royal Society B
+365:3633-3643. [http://doi.org/10.1098/rstb.2010.0280](http://doi.org/10.1098/rstb.2010.0280)
+
+
+## Five Other Publications and Products
+
 Wilson, G., D.A. Aruliah, C.T. Brown, N.P. Chue Hong, M. Davis, R.T. Guy,
 S.H.D. Haddock, K. Huff, I. Mitchell, M. Plumbley, B. Waugh, E.P. White, and
 P. Wilson. 2014. Best Practices for Scientific Computing. PLOS
 Biology. 12:e1001745. [http://doi.org/10.1371/journal.pbio.1001745](http://doi.org/10.1371/journal.pbio.1001745)
 
-Morris, B.D. and E.P. White. 2013. The EcoData Retriever: improving access to existing ecological data. PLOS ONE 8:e65848. https://github.com/weecology/retriever
+Thibault, K.M., E.P. White, A.H. Hurlbert, and
+S.K.M. Ernest. 2011. Multimodality in the individual size distribution of bird
+communities. Global Ecology and Biogeography
+20:145-153. [http://doi.org/10.1111/j.1466-8238.2010.00576.x](http://doi.org/10.1111/j.1466-8238.2010.00576.x)
 
-White, E.P., K.M. Thibault, and X. Xiao. 2012. Characterizing species-abundance distributions across taxa and ecosystems using a simple maximum entropy model. Ecology 93:1772-1778.
+Xiao, X., White, E.P., M.B. Hooten, and S.L. Durham. 2011. On the use of
+log-transformation vs. nonlinear regression for analyzing biological
+power-laws. Ecology 92:
+1887-1894. [http://doi.org/10.1890/11-0538.1](http://doi.org/10.1890/11-0538.1)
 
-White, E.P. and A.H. Hurlbert. 2010. The combined influence of the local environment and regional enrichment on bird species richness. American Naturalist 172:E35-E43.
+White, E.P. and A.H. Hurlbert. 2010. The combined influence of the local
+environment and regional enrichment on bird species richness. American
+Naturalist 172:E35-E43. [http://doi.org/10.1086/649578](http://doi.org/10.1086/649578)
 
-White, E.P., S.K.M. Ernest, P.B. Adler, A.H. Hurlbert, and S.K. Lyons. 2010. Integrating spatial and temporal approaches to understanding species richness. Philosophical Transactions of the Royal Society B 365:3633-3643.
-
-## Five Other Publications and Products
-
-Xiao, X., White, E.P., M.B. Hooten, and S.L. Durham. 2011. On the use of log-transformation vs. nonlinear regression for analyzing biological power-laws. Ecology 92: 1887-1894.
-
-Supp, S.R., X. Xiao, S.K.M. Ernest, and E.P. White. 2012. Experimental evidence suggests that macroecological patterns are determined primarily by species richness and total abundance. Ecology 93:2505-2511.
-
-Price, C.A., K. Ogle, E.P. White, and J.S. Weitz. 2009. Evaluating scaling models in biology using hierarchical Bayesian approaches. Ecology Letters 12:641-651.
-
-Thibault, K.M., S. Supp, M. Giffen, E.P. White, S.K.M. Ernest. 2011. Species composition and abundance of mammalian communities. Ecology 92:2316.
-
-White, E.P., B.J. Enquist, and J.L. Green. 2008. On estimating the exponent of power-law frequency distributions. Ecology 89:905-912.
+Price, C.A., K. Ogle, E.P. White, and J.S. Weitz. 2009. Evaluating scaling
+models in biology using hierarchical Bayesian approaches. Ecology Letters
+12:641-651. [http://doi.org/10.1111/j.1461-0248.2009.01316.x](http://doi.org/10.1111/j.1461-0248.2009.01316.x)
 
 
 ## Synergistic Activities
 
-**Ecoinformatics:** 1. Founder of EcologicalData.org – a website designed to use social media tools to allow ecologists to collaborate on the discovery and utilization of available ecological datasets. 2. EcoData Retriever – Leader of open source software development to automate the process of designing and configuring database structures for ecological databases as well as downloading, cleaning up and installing the data for the end user (http://ecodataretriever.org).
+**Ecological Data Wiki:** Founder and developer of a wiki based website that
+allows ecologists to collaborate on the discovery and use of available
+ecological datasets ([http://ecologicaldata.org](http://ecologicaldata.org)).
 
-**Computational science education:** 1. Teacher of two Utah State University courses on introductory and advanced computer programming and database management for biologists. 2. Developer of a website for providing information about computational approaches in biology (http://programmingforbiologists.org). 3. Software Carpentry Advisory Board member, instructor,  and lead developer of new intermediate level material (http://software-carpentry.org), helping lead a group dedicated to providing online and in-person training to improve the use of advanced computational tools by scientists.
+**EcoData Retriever:** Leader of open source software project that downloads,
+cleans up, restructures, and installs ecological datasets so that scientists
+focus on doing science ([http://ecodataretriever.org](http://ecodataretriever.org)).
 
-**Database development and education:** 1. data paper. 2. 
+**Computational Biology Course & Website Development:** Developed a suite of
+university courses on computational methods for biologists. Course material is
+available online to facilitate broader learning
+([http://programmingforbiologists.org](http://programmingforbiologists.org)) and
+has been viewed over 125,000 times by users in over 150 countries.
 
-**Database development and provision:** 1. Team leader for the development of the Mammalian Community Database – an effort to assemble and publish global scale information on the composition of mammalian communities. This database is published in Ecological Archives (Thibault et al. 2011). 2. Lead database expert on the team that manages the databases for the Portal Project, an important time-series in ecology. The project includes four major datasets (mammals, plants, ants, and weather) that differ substantially in form and complexity. This team transitioned the databases from Microsoft Excel flat files to a relational database running in Microsoft Access in 2004 and transitioned them again in 2010 to a more stable and secure MySQL database that is available to all participants in the project via a secure Linux server.
+**Software Carpentry:** Advisory board member, instructor, and lead maintainer of
+intermediate material for a non-profit providing online and in-person
+training in computation to scientists ([http://software-carpentry.org](http://software-carpentry.org)).
 
-**Open science:** 1. Social media 2. Preprint paper 3. Open proposals 4. Open software development. 5. Mozilla Science Lab
+**Impact Story Board of Directors:** Member of the board of directors for
+[Impact Story](http://impactstory.org/), a non-profit whose goal is to improve
+the practice of science by providing tools to quantify the broad impact of
+diverse research products including software, datasets, presentations and
+publications.
 
 
 ## Collaborators and Other Affiliations
