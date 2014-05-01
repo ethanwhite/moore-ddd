@@ -15,33 +15,22 @@ done typically focuses on a single area and a single taxonomic group meaning
 that we do not know whether these predictions can be applied broadly. As a
 result ecology is failing to make rapid progress as a field, because it lacks
 meaningful bench marks for comparing and improving models and fails to develop
-models that can be applied to understudied regions and taxa. **The broad impact
-of my work will be to make ecology a more predictive and data-intensive science
-that can both understand the processes governing ecological systems and
-address the numerous challenges faced due to anthropogenic change.**
+models that can be applied to understudied regions and taxa.
 
 Now is the perfect time to lead ecology from a descriptive to a predictive
 science. We know possess the abundance of data necessary to tackle prediction
 (cite big data blog post?), the methods to develop predictive models from these
 data (e.g., machine learning, hierarchical modeling), and the mathematical and
-computational technology to develop and assess  models from across the
-data-driven to theory-driven spectrum.
+computational technology to develop and assess models from across the
+data-driven to theory-driven spectrum. I will develop predictive models for
+ecology across different levels of organization and ecosystems, and across the
+diversity of life. I will develop tools to make data-intensive science easier,
+and train the next generation of scientists in data-intensive approaches. In
+combination, **the broad impact of my work will be to make ecology a more
+predictive and data-intensive science that can both understand the processes
+governing ecological systems and address the numerous challenges faced due to
+anthropogenic change.**
 
-* How far can we go and are there some levels of organization that are more
-      ammenable to prediction than others.
-    * Despite this clear need for predictive ecology Nature recently suggested
-      that ecology should abandon predictive approaches
-	* The broad impact of my work will be to make ecology and biology more
-      generally a more predictive science that .
-    * The editors of Nature may think that
-      [ecologists should ignore prediction](http://www.nature.com/news/an-elegant-chaos-1.14849),
-      but this is not a productive way forward.
-	* A cross-system/taxon approach to ecology where either all ecosystems or
-      all taxonomic groups or both are analyzed simultaneously to provide
-      answers to questions the first time they are asked.
-	* A new generation of data-intensive scientists from those analyzing data
-      they collected themselves to those integrated large diverse datasets to
-      answers questions at scale
 
 ## Fundamental Question
 
@@ -264,6 +253,10 @@ standard being developed for dat.
           centers with data-intensive components I have been discussing a first
           draft of a beginner curriculum and we have just finished
 
+   	* A new generation of data-intensive scientists from those analyzing data
+      they collected themselves to those integrated large diverse datasets to
+      answers questions at scale
+
 * on-boarding scientists into open source collaboration
 * attract non-scientists to participate in these collaborations
 
@@ -306,3 +299,19 @@ a predictive understanding of ecology.
 
 * prediction challenge (like kaggle competitions)
     * tech connections to encourage participation from outside ecology 
+    * Despite this clear need for predictive ecology Nature recently suggested
+      that ecology should abandon predictive approaches
+
+
+* The broad impact of my work will be to make ecology and biology more
+      generally a more predictive science that .
+    * The editors of Nature may think that
+      [ecologists should ignore prediction](http://www.nature.com/news/an-elegant-chaos-1.14849),
+      but this is not a productive way forward.
+
+	* A cross-system/taxon approach to ecology where either all ecosystems or
+      all taxonomic groups or both are analyzed simultaneously to provide
+      answers to questions the first time they are asked.
+	* A new generation of data-intensive scientists from those analyzing data
+      they collected themselves to those integrated large diverse datasets to
+      answers questions at scale
