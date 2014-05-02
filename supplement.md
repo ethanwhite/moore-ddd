@@ -127,159 +127,125 @@ develop can be applied to other fields beyond the one you focus on and
 shared. Please discuss these plans. What work products do you plan to make open
 source?*
 
-* Bringing data science approaches to the masses (major focus)
-  * Bring the data to the scientists in the form they need to analyze
-  * Variety aspect of big data
-  * Machine learning on high-dimensional problems
-  * Training the next generation of data-intensive scientists
-  * Changing scientists and how they interact with data
+The primary limit to the progress of data science is human capital. There is too
+much data and too many important problems to be addressed by the small number of
+individuals with the combination of computational and analytical skills to work
+with and understand large amounts of heterogeneous data. Addressing this issue
+requires us to both bring the data to the researchers by developing improved
+tools for the acquisition, assembly, and analysis of data, and bring the
+researchers to the data, by providing training in computational, statistical and
+other data science methodologies. Over the last 5 years I have been actively
+involved in building these bridges between researchers and data as part of an
+NSF CAREER award and I plan to significantly expand these efforts as part of
+this proposal by:
 
-The primary limit to the progress of data science at the moment is human
-capital. There is too much data and too many important problems to be addressed
-by the small number of individuals with the combination of computational and
-analytical skills to work with and understand large amounts of heterogeneous
-data. To address this issue my group will continue to pursue a three-pronged
-approach:
+1. Developing methodologies for working with the variety dimension of big data
+   by a) building software that automates the acquisition and assembly of large
+   numbers of heterogeneous data sources; and b) developing hierarchical
+   modeling approaches for combining small *n* high variety data with large *n*
+   high volume data to address problems that cannot be answered using either
+   alone.
+2. Developing approaches for modeling complex high-dimensional data and making
+   them openly available in robustly developed software that is easy to
+   understand and use.
+3. Training scientists in data science skills, and doing so in collaborative
+   ways that influence science broadly.
 
-1. Training scientists in the skills and ways of thinking of data science, and
-   doing so in collaborative ways that influence science broadly.
-2. Building tools that automatically handle acquiring, cleaning up, and
-   combining heterogeneous data sources, removing impediments to data intensive
-   approaches and allowing scientists to focus on the science side of data
-   science.
-3. Developing approaches for dealing with complex high-dimensional data and
-   making them openly available in robustly developed software packages that
-   area easy to understand and use.
-
-In combination these three efforts will allow scientists to spend more time
-focusing on the science and less time wrestling with data, and make it easier
+In combination, these efforts will allow scientists to spend more time
+focusing on doing science and less time wrestling with data, and make it easier
 for a broader array of scientists to engage in data-intensive approaches.
 
-### Tools
 
-In order to address these questions we will use machine learning, strong tests
-of theory... Ecological systems are inherently high dimensional,
-multi-level/scale... Therefore we will use X... Combining numerous heterogeneous
-datasets.
+### Methodologies for combining heterogeneous datasets
 
-We will build tools and develop training to allow other scientists to take
-advantage of these approaches.
+Combining heterogeneous data from disparate sources and formats to answer
+fundamental questions is a core aspect of many areas of data science, and one
+that is particular prevalent in my research. Typically this involves isolated
+investigators developing custom one-off scripts to download load, cleanup, and
+restructure individual datasets, followed by additional custom scripts for
+combining datasets together. This is error prone, time consuming, and does not
+allow scientists to benefit from each others knowledge and effort. We can do
+better. By building tools to automatically handle the data side of data science
+we can remove impediments to data intensive approaches and allow scientists
+to focus on doing science.
 
-### Tools for combining numerous heterogeneous datasets
+My lab has already developed a platform for acquiring, cleaning up, and
+restructuring heterogeneous data sources, and developed a community who are
+adding and improving datasets
+([Morris & White 2013](http://doi.org/doi:10.1371/journal.pone.0065848)). We are
+expanding the platform to non-ecological data and plan to add additional
+provenance and data cleaning functionality. The next step is to tackle the
+challenge of combining datasets. I will lead the development of a general tool
+for automatically combining multiple heterogenous datasets in a reproducible
+manner. This tool will build on our successes solving the individual dataset
+problem, using generalized routines to handle the standard tasks involved in
+assembling datasets in an automated way while leveraging human collaboration to
+develop the metadata explaining how to combine datasets.
 
-Combining heterogeneous data from a number of disparate sources to answer
-fundamental questions is a core aspect of many areas of data science. In ecology
-this often involves combining ecological data, spatiotemporal environmental
-data, species level data on organismal traits, and information about the
-evolutionary history of the organisms involved. Typically this work involves
-isolated investigators developing custom one-off scripts to download load,
-cleanup, and restructure each individual dataset, followed by additional custom
-scripts for combining datasets together. This is error prone, time consuming,
-does not allow scientists to benefit from each others work, and typically not
-very reproducible since there is no need to avoid manual processing steps when
-developing one-off scripts for individual use. We can do better.
+We will also develop hierarchical modeling approaches for combining detailed and
+high quality data from the long-tail of variety data with high volume and
+velocity data to answer fundamental questions that cannot be addressed using
+either kind of data alone. These efforts will involve: 1) developing methods for
+using imperfect data by correcting the imperfections or properly tracking the
+resulting uncertainty; and 2) leveraging what we know about relationships among
+variables in high variety data to estimate what we do not have measures for in
+high volume data.
 
-My lab has already developed a platform for handling the issues associated with
-individual datasets in reproducible ways. While we have focused our dataset
-development on ecological data, the machinery is completely agnostic to the kind
-of data involved and we are beginning to expand the platform to other kinds of
-data. Be developing this project in the open we are building a community of
-users and contributors that add new datasets and help check and correct existing
-dataset recipes to make sure that the data is handled in the most rigorous
-manner possible.
+### High-dimension prediction
 
-The next step is to tackle the challenge of combining numerous datasets. I will
-lead the development of a general tool for automatically combining multiple
-heterogenous datasets in a reproducible manner. This tool will take a pragmatic
-approach of having the machine tackle the standard tasks of assembling datasets
-in an automated way while leveraging human knowledge to develop the recipes that
-explain exactly how two datasets can be combined. This will provide an effective
-tool that we can use now for speeding up data-intensive research while we wait
-for the potential of fully machine based to be realized.
-
-
-
-
-* Imperfect data
-    * developing methods for using imperfect data building on Silver, Gelman,
-      etc.
-	* detection
-	* missing data (e.g., traits, physiology, etc.)
-	    * leveraging what we do know to estimate what we don't
-		* combine mass + phylogeny in models
-	* Combining big (volume/velocity) high quality data with big (variety) lower
-      quality data by modeling the relationships between them.
-
-* Wrappers for tools developed in collaboration with rOpenSci
-
-
-  
-The Retriever already accomplishes the goals of new projects such as dat,
-albeit in a more domain specific context. Talked with dat team about making our
-tools talk together in part through moving the Retriever to the same metadata
-standard being developed for dat.
-  
-
-
-* High-dimensional prediction
-    * Ecology represents an extreme point on the high dimensional axis and this
-      work will help break ground in that area
-    * species interactions (Clark et al. 2014, Harris 2014)
-	* interactions are context dependent (see Chamberlain et al. 2014 Ecology
-      Letters)
-
-* Spatial challenges
-    * development of new form of cross-validation (McGill & Bahn 201X, Harris 2014)
+Addressing data-intensive questions often requires making predictions for
+high-dimensional responses. Instead of predicting a single value it is often
+necessary to make predictions for complex joint distributions (Clark et
+al. 2014, Harris 2014). For example, the population level predictions described
+above require predicting the interrelated abundances of hundreds of species
+simultaneously and the interactions among these species are context dependent
+(Chamberlain et al. 2014 in Ecology Letters; Poi et al. 2014 preprint). These
+kinds of challenges extend to many other areas of data science and require
+complex approaches to machine learning including Markov networks, neutral
+networks, etc. Ecology represents an extreme point on the high dimensional axis
+and out work will help break ground in this area by building on cutting edge
+work on species interactions (Clark et al. 2014, Harris 2014). In addition to
+developing the methods for addressing these problems we will build tools and
+develop training to allow other scientists to take advantage of these
+approaches.
 
 ### Training
 
-* Human capital
-    * One of the most crucial areas for development in data science is human
-      capital. There is too much data and too many important problems to be
-      addressed by the small number of individuals with the combination of
-      computational and analytic skills to work with large amounts of
-      heterogeneous data. In addition, in many fields we lack individuals who
-      are capable of thinking properly about how to understand the world using
-      existing data as opposed to experiments. To overcome these limitations we
-      need to train scientists at all levels in the tools and approaches needed
-      for tackling data-intensive problems. This extends from scientists working
-      only with the data they personally collect (because it is now possible for
-      a single individual to collect far more data than most scientists know how
-      to work with), to those wanting to combine data they collected with
-      existing datasets to leverage others efforts to expand the scope of what
-      they can accomplish, to folks that want to focus on large integrated
-      analyses of multiple datasets to understand life, the universe, and
-      everything.
-	* The problem with most scientific training initiatives is that they are
-      isolated enterprises funded for a brief period of time by a single
-      grant. As a result they do not benefit from the collaborative experience
-      of large numbers of educators and they fail to build the momentum,
-      reputation, and communities, that would allow them to have the broadest
-      impact. To avoid these issues in the education component of my current
-      National Science Foundation CAREER award I have teamed up with Software
-      Carpentry and the Mozilla Science Lab to put our resources to work as part
-      of a broader collaboration.
-    * I have helped run seven Software Carpentry workshops in the past two
-      years, produced video lectures,
-	* Software Carpentry
-	* Data Carpentry
-	    * While data science skills have a lot of overlap with software
-          development skills, there are also large aspects of data science
-          approaches that are not covered in the current Software Carpentry
-          curriculum. To begin to address this limitation in the training of the
-          next generation of data-intensive scientists I am part of a small
-          group leading the development of a proof-of-concept for a new Data
-          Carpentry curriculum that focuses on tools and approaches related to
-          data. In collaboration with scientists from an array of NSF funded
-          centers with data-intensive components I have been discussing a first
-          draft of a beginner curriculum and we have just finished
+While tools can help bring the data to the scientists, they cannot, on their
+own, overcome the lack of individuals with the necessary skills and ability to
+think about data-intensive research. To overcome these limitations we need to
+train scientists at all levels in the tools and approaches needed for tackling
+data-intensive problems. This extends from scientists working only with the data
+they personally collect (because it is now possible for a single individual to
+collect far more data than most scientists know how to work with), to those that
+performing large integrated analyses of multiple large datasets.
 
-   	* A new generation of data-intensive scientists from those analyzing data
-      they collected themselves to those integrated large diverse datasets to
-      answers questions at scale
+The problem with most scientific training initiatives is that they are isolated
+enterprises funded for a brief period of time by a single grant. As a result
+they do not benefit from the collaborative experience of large numbers of
+educators and they fail to build the momentum, reputation, and communities, that
+would allow them to have the broadest impact. To avoid these issues in the
+education component of my NSF CAREER award I have teamed up with Software
+Carpentry and the Mozilla Science Lab to put our resources to work as part of a
+broader collaboration. While data science skills have a lot of overlap with
+software development skills, there are also major aspects of data science
+approaches that are not covered in the current Software Carpentry curriculum. I
+am part of a group that is in early stages of developing a Data Carpentry
+curriculum that focuses on tools and approaches related to data. This project is
+just at its beginning and I would use support from this award to help build both
+beginner and advanced curriculums and teaching this material in both 2-3 day
+workshops and university courses.
 
-* on-boarding scientists into open source collaboration
-* attract non-scientists to participate in these collaborations
+As part of these efforts I will also develop approaches for on-boarding
+scientists into open source collaboration by having students in my courses
+engage with 'novice issues' on our open source software projects. I will also
+work with efforts like http://interdisciplinaryprogramming.com/ to attract
+non-scientists to participate in these collaborations.
+
+The combined result of these efforts will be a new generation of data-intensive
+scientists from those analyzing data they collected themselves to those
+integrated large diverse datasets to answers questions that could not otherwise
+by addressed.
 
 ## Sharing
 
@@ -288,68 +254,3 @@ and open access licenses. We will use open notebooks to make the development and
 testing of our ideas available to the scientific community in real time. All
 papers will be posted as preprints prior to submission and published open
 access.
-
-## Bone yard
-
-* the answers to be extrapolated across scales, ecosystems, and the diversity of life:
-* A more predictive ecology/biology
-
-What will pops, comms, and ecosystems look like in 20 years?
-What will ecological systems look like in 20 years...
-
-...from populations to communities to ecosystems.
-
-    * What are the most important processes for structuring ecological
-	  communities from populations to ecosystems?
-	* What will these systems look like in 10, 50, 100 years?
-	* "Data-intensive approaches to predicting/forecasting the distributions &
-      abundances of species
-	* ID regions for conservation where most species will be in 50 years
-	* By combining data-driven and theory-driven approaches in a data-intensive
-      context
-
-* Use short term climate data rather than long-term averages
-    * more complex and high dimensional, but actually linked to process
-
-More importantly than the work the my group accomplishes, the full measure of
-our success will be determined by whether or not our work and advocacy yields a
-general shift in ecology more broadly that shows that our research and outreach
-efforts have pushed ecologists toward expecting: 1. strong tests of theory that
-focus on both the underlying process and whether or not it has a strong
-influence on the ecological outcome, 2. acceptance of data-driven approaches,
-and 3. an emphasis on empirical prediction as the arbiter/goal for both
-theory-driven and data-driven approaches.
-
-[could go in either to some degree] The two foci in the preproposal represent
-data-driven vs. theory-driven approaches with both in a data-intensive
-context. My work will lead in the combination of these two approaches to produce
-a predictive understanding of ecology.
-
-
-* prediction challenge (like kaggle competitions)
-    * tech connections to encourage participation from outside ecology 
-    * Despite this clear need for predictive ecology Nature recently suggested
-      that ecology should abandon predictive approaches
-
-
-* The broad impact of my work will be to make ecology and biology more
-      generally a more predictive science that .
-    * The editors of Nature may think that
-      [ecologists should ignore prediction](http://www.nature.com/news/an-elegant-chaos-1.14849),
-      but this is not a productive way forward.
-
-	* A cross-system/taxon approach to ecology where either all ecosystems or
-      all taxonomic groups or both are analyzed simultaneously to provide
-      answers to questions the first time they are asked.
-	* A new generation of data-intensive scientists from those analyzing data
-      they collected themselves to those integrated large diverse datasets to
-      answers questions at scale
-
-work.
-
- There are analogs from across
-the data science spectrum. 
-    * integrate with dat streams
-	* blend using approximation based on available data + models to fill in gaps
-      (e.g., species traits based on phylogeny, physiological rates based on
-      body size)
