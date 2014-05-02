@@ -137,8 +137,9 @@ source?*
 The primary limit to the progress of data science at the moment is human
 capital. There is too much data and too many important problems to be addressed
 by the small number of individuals with the combination of computational and
-analytic skills to work with large amounts of heterogeneous data. To address
-this issue my group will continue to pursue a three-pronged approach.
+analytical skills to work with and understand large amounts of heterogeneous
+data. To address this issue my group will continue to pursue a three-pronged
+approach:
 
 1. Training scientists in the skills and ways of thinking of data science, and
    doing so in collaborative ways that influence science broadly.
@@ -146,11 +147,13 @@ this issue my group will continue to pursue a three-pronged approach.
    combining heterogeneous data sources, removing impediments to data intensive
    approaches and allowing scientists to focus on the science side of data
    science.
-3. Developing approaches for dealing with complex high-dimensional data. 
+3. Developing approaches for dealing with complex high-dimensional data and
+   making them openly available in robustly developed software packages that
+   area easy to understand and use.
 
-This allows scientists to spend more time focusing on the science and less time
-wrestling with data, and makes it easier for a broader array of scientists to
-engage in data-intensive approaches.
+In combination these three efforts will allow scientists to spend more time
+focusing on the science and less time wrestling with data, and make it easier
+for a broader array of scientists to engage in data-intensive approaches.
 
 ### Tools
 
@@ -162,22 +165,40 @@ datasets.
 We will build tools and develop training to allow other scientists to take
 advantage of these approaches.
 
-#### BlendDat
+### Tools for combining numerous heterogeneous datasets
 
-A lot of data-intensive work requires combining heterogeneous data from a number
-of disparate sources. In ecology this often involves combining ecological data,
-spatiotemporal environmental data, species level data on organismal traits, and
-information about the evolutionary history of the organisms involved. There are
-analogs from across the data science spectrum. Currently there is no effective way to
-generalize these problems and collaborate on developing common combinations of
-datasets. Building on my experiences from developing the EcoData Retriever I
-will lead the development of a general tool for automatically combining multiple
-heterogenous datasets into a 
-datasets into a 
-    * integrate with dat streams
-	* blend using approximation based on available data + models to fill in gaps
-      (e.g., species traits based on phylogeny, physiological rates based on
-      body size)
+Combining heterogeneous data from a number of disparate sources to answer
+fundamental questions is a core aspect of many areas of data science. In ecology
+this often involves combining ecological data, spatiotemporal environmental
+data, species level data on organismal traits, and information about the
+evolutionary history of the organisms involved. Typically this work involves
+isolated investigators developing custom one-off scripts to download load,
+cleanup, and restructure each individual dataset, followed by additional custom
+scripts for combining datasets together. This is error prone, time consuming,
+does not allow scientists to benefit from each others work, and typically not
+very reproducible since there is no need to avoid manual processing steps when
+developing one-off scripts for individual use. We can do better.
+
+My lab has already developed a platform for handling the issues associated with
+individual datasets in reproducible ways. While we have focused our dataset
+development on ecological data, the machinery is completely agnostic to the kind
+of data involved and we are beginning to expand the platform to other kinds of
+data. Be developing this project in the open we are building a community of
+users and contributors that add new datasets and help check and correct existing
+dataset recipes to make sure that the data is handled in the most rigorous
+manner possible.
+
+The next step is to tackle the challenge of combining numerous datasets. I will
+lead the development of a general tool for automatically combining multiple
+heterogenous datasets in a reproducible manner. This tool will take a pragmatic
+approach of having the machine tackle the standard tasks of assembling datasets
+in an automated way while leveraging human knowledge to develop the recipes that
+explain exactly how two datasets can be combined. This will provide an effective
+tool that we can use now for speeding up data-intensive research while we wait
+for the potential of fully machine based to be realized.
+
+
+
 
 * Imperfect data
     * developing methods for using imperfect data building on Silver, Gelman,
@@ -260,6 +281,14 @@ standard being developed for dat.
 * on-boarding scientists into open source collaboration
 * attract non-scientists to participate in these collaborations
 
+## Sharing
+
+All code and training material will be developed in the open using open source
+and open access licenses. We will use open notebooks to make the development and
+testing of our ideas available to the scientific community in real time. All
+papers will be posted as preprints prior to submission and published open
+access.
+
 ## Bone yard
 
 * the answers to be extrapolated across scales, ecosystems, and the diversity of life:
@@ -315,3 +344,12 @@ a predictive understanding of ecology.
 	* A new generation of data-intensive scientists from those analyzing data
       they collected themselves to those integrated large diverse datasets to
       answers questions at scale
+
+work.
+
+ There are analogs from across
+the data science spectrum. 
+    * integrate with dat streams
+	* blend using approximation based on available data + models to fill in gaps
+      (e.g., species traits based on phylogeny, physiological rates based on
+      body size)
