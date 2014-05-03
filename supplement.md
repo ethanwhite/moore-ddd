@@ -1,4 +1,4 @@
-# Fundamental Questions and Five-Year Impact
+# Fundamental Question and Five-Year Impact
 
 *What do you envision as the five-year impact of your work on one or more of the
 natural sciences? Is there a key, fundamental question that you are trying to
@@ -102,7 +102,7 @@ competitors to measure our success as a field in using data-intensive approaches
 to predict the future state of ecological systems.
 
 
-# Advancing Data Science [Methodologies]
+# Advancing Data Science Methodologies and Human Capital
 
 *How will you advance data science methodologies, such as statistics, machine
 learning, automated inference, etc., to achieve this goal? We are particularly
@@ -114,14 +114,13 @@ source?*
 The primary limit to the progress of data science is human capital. There is too
 much data and too many important problems to be addressed by the small number of
 individuals with the combination of computational and analytical skills to work
-with and understand large amounts of heterogeneous data. Addressing this issue
-requires us to both bring the data to the researchers by developing improved
-tools for the acquisition, assembly, and analysis of data, and bring the
-researchers to the data, by providing training in computational, statistical and
-other data science methodologies. Over the last 5 years I have been actively
-involved in building these bridges between researchers and data as part of an
-NSF CAREER award and I plan to significantly expand these efforts as part of
-this proposal by:
+with large amounts of heterogeneous data. Addressing this issue requires us to
+both bring the data to the researchers by developing improved tools for the
+acquisition, assembly, and analysis of data, and bring the researchers to the
+data, by providing training in computational, statistical and other data science
+methodologies. Over the last 5 years I have been actively involved in building
+these bridges between researchers and data as part of an NSF CAREER award and I
+plan to significantly expand these efforts as part of this proposal by:
 
 1. Developing methodologies for working with the variety dimension of big data
    by a) building software that automates the acquisition and assembly of large
@@ -153,7 +152,7 @@ better. By building tools to automatically handle the data side of data science
 we can remove impediments to data intensive approaches and allow scientists
 to focus on doing science.
 
-My lab has already developed a platform for acquiring, cleaning up, and
+My lab has developed a platform for acquiring, cleaning up, and
 restructuring heterogeneous data sources, and developed a community who are
 adding and improving datasets
 ([Morris & White 2013](http://doi.org/doi:10.1371/journal.pone.0065848)). We are
@@ -185,9 +184,9 @@ above require predicting the interrelated abundances of hundreds of species
 simultaneously and the interactions among these species are context dependent
 (Chamberlain et al. 2014 in Ecology Letters; Poi et al. 2014 preprint). These
 kinds of challenges extend to many other areas of data science and require
-complex approaches to machine learning including Markov networks, neutral
+complex approaches to machine learning including Markov networks, neural
 networks, etc. Ecology represents an extreme point on the high dimensional axis
-and out work will help break ground in this area by building on cutting edge
+and our work will help break ground in this area by building on cutting edge
 work on species interactions (Clark et al. 2014, Harris 2014). In addition to
 developing the methods for addressing these problems we will build tools and
 develop training to allow other scientists to take advantage of these
@@ -199,26 +198,21 @@ While tools can help bring the data to the scientists, they cannot, on their
 own, overcome the lack of individuals with the necessary skills and ability to
 think about data-intensive research. To overcome these limitations we need to
 train scientists at all levels in the tools and approaches needed for tackling
-data-intensive problems. This extends from scientists working only with the data
-they personally collect (because it is now possible for a single individual to
-collect far more data than most scientists know how to work with), to those that
-performing large integrated analyses of multiple large datasets.
+data-intensive problems.
 
-The problem with most scientific training initiatives is that they are isolated
-enterprises funded for a brief period of time by a single grant. As a result
-they do not benefit from the collaborative experience of large numbers of
-educators and they fail to build the momentum, reputation, and communities, that
-would allow them to have the broadest impact. To avoid these issues in the
-education component of my NSF CAREER award I have teamed up with Software
-Carpentry and the Mozilla Science Lab to put our resources to work as part of a
-broader collaboration. While data science skills have a lot of overlap with
-software development skills, there are also major aspects of data science
-approaches that are not covered in the current Software Carpentry curriculum. I
-am part of a group that is in early stages of developing a Data Carpentry
-curriculum that focuses on tools and approaches related to data. This project is
-just at its beginning and I would use support from this award to help build both
-beginner and advanced curriculums and teaching this material in both 2-3 day
-workshops and university courses.
+Most scientific training initiatives are isolated enterprises funded for a brief
+period of time by a single grant. As a result they do not benefit from the
+collaborative experience of large numbers of educators and they fail to build
+the momentum, reputation, and communities, that would allow them to have the
+broadest impact. To avoid these issues I have teamed up with Software Carpentry
+and the Mozilla Science Lab to work as part of a broader collaboration. While
+data science skills have a lot of overlap with software development skills,
+there are also major aspects of data science approaches that are not covered in
+the current Software Carpentry curriculum. I am part of a group that is in early
+stages of developing a Data Carpentry curriculum that focuses on tools and
+approaches related to data. I would use support from this award to help build
+both beginner and advanced curriculums and teaching this material in both 2-3
+day workshops and university courses.
 
 As part of these efforts I will also develop approaches for on-boarding
 scientists into open source collaboration by having students in my courses
