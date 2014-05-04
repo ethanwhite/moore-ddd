@@ -1,6 +1,11 @@
-# Fundamental Question and Five-Year Impact
+# 1. Fundamental Question and Five-Year Impact
 
-## Impact
+*What do you envision as the five-year impact of your work on one or more of the
+natural sciences? Is there a key, fundamental question that you are trying to
+answer? How will you measure progress towards answering this question over the
+five years?*
+
+## 1.1 Impact
 
 While ecologists often justify their research based on the importance of
 predicting how nature will respond to global change, the field is still
@@ -27,7 +32,7 @@ governing ecological systems and address the numerous challenges faced due to
 anthropogenic change.**
 
 
-## Fundamental Question
+## 1.2 Fundamental Question
 
 My research will focus on one of the most fundamental questions in ecology:  
 **What will ecological systems look like in the future?**
@@ -69,7 +74,7 @@ occurrence records, high temporal resolution climate and land use data (rather
 than long-term averages), and newly available text-mining and compilation based
 datasets on large numbers of species traits and species interactions.
 
-## Measuring Progress
+## 1.3 Measuring Progress
 
 The measure of our success is how effectively we can predict independent data,
 and ultimately in how well we can predict the future state of ecological
@@ -95,7 +100,14 @@ competitors to measure our success as a field in using data-intensive approaches
 to predict the future state of ecological systems.
 
 
-# Advancing Data Science Methodologies and Building Human Capital
+# 2. Advancing Data Science Methodologies and Building Human Capital
+
+*How will you advance data science methodologies, such as statistics, machine
+learning, automated inference, etc., to achieve this goal? We are particularly
+interested in the ways that the data science methodologies that you propose to
+develop can be applied to other fields beyond the one you focus on and
+shared. Please discuss these plans. What work products do you plan to make open
+source?*
 
 There is too much data and too many important problems to be addressed by the
 small number of individuals with the combination of computational and analytical
@@ -118,7 +130,7 @@ and make it easier for a broader array of scientists to engage in data-intensive
 approaches.
 
 
-### Methodologies for automatically combining heterogeneous datasets
+## 2.1 Methodologies for automatically combining heterogeneous datasets
 
 Combining heterogeneous data from disparate sources and formats to answer
 fundamental questions is a core aspect of many areas of data science, and one
@@ -149,25 +161,33 @@ interface with efforts for acquiring and streaming data such as
 dimensions of big data to be easily combined to answer fundamental questions
 that cannot be addressed using any of these dimensions of data alone.
 
-### Machine learning for complex high-dimensional data
+## 2.2 Machine learning for complex high-dimensional data
 
-Addressing data-intensive questions often requires making predictions for
-high-dimensional responses. Instead of predicting a single value it is often
-necessary to make predictions for complex joint distributions (Clark et
-al. 2014, Harris 2014). For example, the population level predictions described
-above require predicting the interrelated abundances of hundreds of species
-simultaneously and the interactions among these species are context dependent
-(Chamberlain et al. 2014 in Ecology Letters; Poi et al. 2014 preprint). These
+Most data science methodologies assume that while data may be large and
+heterogeneous the data themselves are relatively simple: responses are linear,
+there is a single response variable, and data points are independent and
+identically distributed. However, many data-intensive questions violate all of
+these assumptions. For example, the species level predictions described above
+require simultaneously predicting the interrelated abundances of hundreds of
+species that respond to climate in non-linear ways
+([Harris 2014](http://dx.doi.org/10.1101/003947)), with context dependent
+interactions among species (Chamberlain et al. 2014; Poi et al. 2014 preprint),
+when standard cross-validation fails due to strong spatial correlations in both
+features and outcomes
+([Bahn & McGill 2012](http://www.wright.edu/~volker.bahn/documents/Bahn_McGill_OIKOS_2012.pdf)). These
 kinds of challenges extend to many other areas of data science and require
-complex approaches to machine learning including Markov networks, neural
-networks, etc. Ecology represents an extreme point on the high dimensional axis
-and our work will help break ground in this area by building on cutting edge
-work on species interactions (Clark et al. 2014, Harris 2014). In addition to
-developing the methods for addressing these problems we will build tools and
+complex approaches to machine learning including novel approaches to
+cross-validation and modeling approaches that are capable of simultaneously
+handling non-linear responses with high-dimensional features and predicting
+high-dimensional joint outputs (e.g., stochastic neural networks, Markov random
+fields). We will build on existing methods to provide general solutions to
+cross-validation in spatial contexts, and general implementations of our models
+for forecasting the distributions of species and ecosystem services. In addition
+to developing the methods for addressing these problems we will build tools and
 develop training to allow other scientists to take advantage of these
 approaches.
 
-### Training
+## 2.3 Training
 
 Tools can help bring the data to the scientists, but they cannot overcome the
 lack of individuals with the skills to conduct data-intensive research. To build
@@ -186,7 +206,7 @@ produce a new generation of data-intensive scientists with the ability to
 address fundamental questions using the variety, volume, and velocity of data
 that are now available to us.
 
-## Sharing
+# 3. Openness
 
 I believe that science progresses most rapidly when all outputs are made open as
 quickly as possible. All code and training material will be developed in the
@@ -194,17 +214,3 @@ open using open source and open access licenses. We will use open notebooks to
 make the development and testing of our ideas available to the scientific
 community in real time. All papers will be posted as preprints prior to
 submission and published open access.
-
-
-*What do you envision as the five-year impact of your work on one or more of the
-natural sciences? Is there a key, fundamental question that you are trying to
-answer? How will you measure progress towards answering this question over the
-five years?*
-
-
-*How will you advance data science methodologies, such as statistics, machine
-learning, automated inference, etc., to achieve this goal? We are particularly
-interested in the ways that the data science methodologies that you propose to
-develop can be applied to other fields beyond the one you focus on and
-shared. Please discuss these plans. What work products do you plan to make open
-source?*
