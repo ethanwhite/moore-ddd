@@ -1,10 +1,5 @@
 # Fundamental Question and Five-Year Impact
 
-*What do you envision as the five-year impact of your work on one or more of the
-natural sciences? Is there a key, fundamental question that you are trying to
-answer? How will you measure progress towards answering this question over the
-five years?*
-
 ## Impact
 
 While ecologists often justify their research based on the importance of
@@ -34,7 +29,7 @@ anthropogenic change.**
 
 ## Fundamental Question
 
-My research will focus on one of the most fundamental questions in ecology:
+My research will focus on one of the most fundamental questions in ecology:  
 **What will ecological systems look like in the future?**
 
 This question is fundamental to knowing how well we understand ecological
@@ -78,17 +73,15 @@ datasets on large numbers of species traits and species interactions.
 
 The measure of our success is how effectively we can predict independent data,
 and ultimately in how well we can predict the future state of ecological
-systems. We will measure the progress of our research at three levels:
-
-1. How well we can predict the state of ecological systems in different
-   locations. This serves as a pre-requisite for understanding temporal dynamics
-   by helping us develop effective modeling strategies.
-2. Forecasting and hindcasting within existing time-series at different lags by
-   training models only on data from either the beginning or end of the
-   time-series.
-3. Forecasting the future state of ecological systems. Each year we will publish
-   predictions for the state of ecological systems 1-10 years from present and
-   evaluate those predictions as the new data is collected.
+systems. We will measure the progress of our research at three levels: 1) How
+well we can predict the state of ecological systems in different locations. This
+serves as a pre-requisite for understanding temporal dynamics by helping us
+develop effective modeling strategies; 2) Forecasting and hindcasting within
+existing time-series at different lags by training models only on data from
+either the beginning or end of the time-series; and 3) Forecasting the future
+state of ecological systems. Each year we will publish predictions for the state
+of ecological systems 1-10 years from present and evaluate those predictions as
+new data is collected.
 
 Beyond making progress in my own research a fuller measure of my impact will be
 whether ecology focuses more on prediction and data-intensive approaches. I will
@@ -102,59 +95,45 @@ competitors to measure our success as a field in using data-intensive approaches
 to predict the future state of ecological systems.
 
 
-# Advancing Data Science Methodologies and Human Capital
+# Advancing Data Science Methodologies and Building Human Capital
 
-*How will you advance data science methodologies, such as statistics, machine
-learning, automated inference, etc., to achieve this goal? We are particularly
-interested in the ways that the data science methodologies that you propose to
-develop can be applied to other fields beyond the one you focus on and
-shared. Please discuss these plans. What work products do you plan to make open
-source?*
-
-The primary limit to the progress of data science is human capital. There is too
-much data and too many important problems to be addressed by the small number of
-individuals with the combination of computational and analytical skills to work
-with large amounts of heterogeneous data. Addressing this issue requires us to
-both bring the data to the researchers by developing improved tools for the
-acquisition, assembly, and analysis of data, and bring the researchers to the
-data, by providing training in computational, statistical and other data science
-methodologies. Over the last 5 years I have been actively involved in building
-these bridges between researchers and data as part of an NSF CAREER award and I
-plan to significantly expand these efforts as part of this proposal by:
-
-1. Developing methodologies for working with the variety dimension of big data
-   by a) building software that automates the acquisition and assembly of large
-   numbers of heterogeneous data sources; and b) developing hierarchical
-   modeling approaches for combining small *n* high variety data with large *n*
-   high volume data to address problems that cannot be answered using either
-   alone.
-2. Developing approaches for modeling complex high-dimensional data and making
-   them openly available in robustly developed software that is easy to
-   understand and use.
-3. Training scientists in data science skills, and doing so in collaborative
-   ways that influence science broadly.
-
-In combination, these efforts will allow scientists to spend more time
-focusing on doing science and less time wrestling with data, and make it easier
-for a broader array of scientists to engage in data-intensive approaches.
+There is too much data and too many important problems to be addressed by the
+small number of individuals with the combination of computational and analytical
+skills to work with large amounts of heterogeneous data. Addressing this issue
+requires us to both bring the data to the researchers by developing improved
+tools for the acquisition, assembly, and analysis of data, and bring the
+researchers to the data, by providing training in computational, statistical and
+other data science methodologies. Over the last 5 years I have been actively
+involved in building these bridges between researchers and data as part of an
+NSF CAREER award and I plan to significantly expand these efforts as part of
+this proposal by: 1) Developing methodologies for working with the variety
+dimension of big data by building software that automates the acquisition and
+assembly of large numbers of heterogeneous data sources; 2) Developing
+approaches for modeling complex high-dimensional data and making them openly
+available in robustly developed, easy to use, software; and 3) Training
+scientists in data science skills, and doing so in collaborative ways that
+influence science broadly. In combination, these efforts will allow scientists
+to spend more time focusing on doing science and less time wrestling with data,
+and make it easier for a broader array of scientists to engage in data-intensive
+approaches.
 
 
-### Methodologies for combining heterogeneous datasets
+### Methodologies for automatically combining heterogeneous datasets
 
 Combining heterogeneous data from disparate sources and formats to answer
 fundamental questions is a core aspect of many areas of data science, and one
 that is particular prevalent in my research. Typically this involves isolated
-investigators developing custom one-off scripts to download load, cleanup, and
-restructure individual datasets, followed by additional custom scripts for
-combining datasets together. This is error prone, time consuming, and does not
-allow scientists to benefit from each others knowledge and effort. We can do
-better. By building tools to automatically handle the data side of data science
-we can remove impediments to data intensive approaches and allow scientists
-to focus on doing science.
+investigators developing custom scripts to download load, cleanup, and
+restructure individual datasets, followed by more custom scripts for combining
+datasets. This is error prone, time consuming, and does not allow scientists to
+benefit from each others knowledge and effort. We can do better. By building
+tools to automatically handle the data side of data science we can remove
+impediments to data intensive approaches and allow scientists to focus on doing
+science.
 
-My lab has developed a platform for acquiring, cleaning up, and
-restructuring heterogeneous data sources, and developed a community who are
-adding and improving datasets
+My lab has developed a platform for acquiring, cleaning up, and restructuring
+heterogeneous data sources, and developed a community who are adding and
+improving datasets
 ([Morris & White 2013](http://doi.org/doi:10.1371/journal.pone.0065848)). We are
 expanding the platform to non-ecological data and plan to add additional
 provenance and data cleaning functionality. The next step is to tackle the
@@ -163,18 +142,14 @@ for automatically combining multiple heterogenous datasets in a reproducible
 manner. This tool will build on our successes solving the individual dataset
 problem, using generalized routines to handle the standard tasks involved in
 assembling datasets in an automated way while leveraging human collaboration to
-develop the metadata explaining how to combine datasets.
+develop the metadata explaining how to combine datasets. This tool will
+interface with efforts for acquiring and streaming data such as
+[dat](http://dat-data.com/), [rOpenSci](http://ropensci.org/) and our
+[Data Retriever](http://ecodataretriever.org/) to allow data from the three
+dimensions of big data to be easily combined to answer fundamental questions
+that cannot be addressed using any of these dimensions of data alone.
 
-We will also develop hierarchical modeling approaches for combining detailed and
-high quality data from the long-tail of variety data with high volume and
-velocity data to answer fundamental questions that cannot be addressed using
-either kind of data alone. These efforts will involve: 1) developing methods for
-using imperfect data by correcting the imperfections or properly tracking the
-resulting uncertainty; and 2) leveraging what we know about relationships among
-variables in high variety data to estimate what we do not have measures for in
-high volume data.
-
-### High-dimension prediction
+### Machine learning for complex high-dimensional data
 
 Addressing data-intensive questions often requires making predictions for
 high-dimensional responses. Instead of predicting a single value it is often
@@ -194,41 +169,42 @@ approaches.
 
 ### Training
 
-While tools can help bring the data to the scientists, they cannot, on their
-own, overcome the lack of individuals with the necessary skills and ability to
-think about data-intensive research. To overcome these limitations we need to
-train scientists at all levels in the tools and approaches needed for tackling
-data-intensive problems.
-
-Most scientific training initiatives are isolated enterprises funded for a brief
-period of time by a single grant. As a result they do not benefit from the
-collaborative experience of large numbers of educators and they fail to build
-the momentum, reputation, and communities, that would allow them to have the
-broadest impact. To avoid these issues I have teamed up with Software Carpentry
-and the Mozilla Science Lab to work as part of a broader collaboration. While
-data science skills have a lot of overlap with software development skills,
-there are also major aspects of data science approaches that are not covered in
-the current Software Carpentry curriculum. I am part of a group that is in early
-stages of developing a Data Carpentry curriculum that focuses on tools and
-approaches related to data. I would use support from this award to help build
-both beginner and advanced curriculums and teaching this material in both 2-3
-day workshops and university courses.
-
-As part of these efforts I will also develop approaches for on-boarding
-scientists into open source collaboration by having students in my courses
-engage with 'novice issues' on our open source software projects. I will also
-work with efforts like http://interdisciplinaryprogramming.com/ to attract
-non-scientists to participate in these collaborations.
-
-The combined result of these efforts will be a new generation of data-intensive
-scientists from those analyzing data they collected themselves to those
-integrated large diverse datasets to answers questions that could not otherwise
-by addressed.
+Tools can help bring the data to the scientists, but they cannot overcome the
+lack of individuals with the skills to conduct data-intensive research. To build
+the needed human capital, we need to train scientists at all levels in the tools
+and approaches needed for tackling data-intensive problems. To help training
+benefit from the same kinds of collaboration and community as open source
+software projects, I have focused my efforts over the last four years as a core
+member of the Software Carpentry team. While data science skills overlap with
+software development skills, there are also major aspects of data science
+approaches that are not covered in the current Software Carpentry curriculum. I
+am part of a core group that is in early stages of developing a Data Carpentry
+curriculum that focuses on the tools and approaches of data science. I would use
+support from this award to help build both beginner and advanced curricula and
+to teach this material in both workshops and university courses. This will help
+produce a new generation of data-intensive scientists with the ability to
+address fundamental questions using the variety, volume, and velocity of data
+that are now available to us.
 
 ## Sharing
 
-All code and training material will be developed in the open using open source
-and open access licenses. We will use open notebooks to make the development and
-testing of our ideas available to the scientific community in real time. All
-papers will be posted as preprints prior to submission and published open
-access.
+I believe that science progresses most rapidly when all outputs are made open as
+quickly as possible. All code and training material will be developed in the
+open using open source and open access licenses. We will use open notebooks to
+make the development and testing of our ideas available to the scientific
+community in real time. All papers will be posted as preprints prior to
+submission and published open access.
+
+
+*What do you envision as the five-year impact of your work on one or more of the
+natural sciences? Is there a key, fundamental question that you are trying to
+answer? How will you measure progress towards answering this question over the
+five years?*
+
+
+*How will you advance data science methodologies, such as statistics, machine
+learning, automated inference, etc., to achieve this goal? We are particularly
+interested in the ways that the data science methodologies that you propose to
+develop can be applied to other fields beyond the one you focus on and
+shared. Please discuss these plans. What work products do you plan to make open
+source?*
