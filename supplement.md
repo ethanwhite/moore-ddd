@@ -7,30 +7,28 @@ five years?*
 
 ## 1.1 Impact
 
-While ecologists often justify their research based on the importance of
-predicting how nature will respond to global change, the field is still
-primarily a descriptive science focused on understanding, rather than
-predicting, nature. Little research actually generates meaningful predictions
-and when predictions are attempted they are generally only for a single area and
-a single group of species. This lack of prediction is slowing progress in
-ecology, because the field lacks meaningful bench marks for comparing and
-improving models and it fails to develop models that can be applied to
-understudied regions and species.
+While ecologists often justify their research based on predicting how nature
+will respond to global change, the field is still primarily a descriptive
+science focused on understanding, rather than predicting, nature. Little
+research actually generates meaningful predictions and when predictions are
+attempted they are generally only for a single area and a single group of
+species. This lack of prediction is slowing progress in ecology, because the
+field lacks meaningful benchmarks for comparing and improving models and fails
+to develop models that can be applied to understudied regions and species.
 
 Now is the perfect time to lead ecology from a descriptive to a predictive
-science. We now possess the abundance of data necessary to tackle prediction
-(cite big data blog post?), the methods to develop predictive models from these
-data (e.g., machine learning, hierarchical modeling), and the mathematical and
-computational technology to develop and assess models from across the
-data-driven to theory-driven spectrum. I will develop predictive models for
-ecology across different levels of organization and ecosystems, and across the
-diversity of life. I will develop tools to make data-intensive science easier,
-and train the next generation of scientists in data-intensive approaches. In
-combination, **the broad impact of my work will be to make ecology a more
-predictive and data-intensive science that can both understand the processes
-governing ecological systems and address the numerous challenges faced due to
-anthropogenic change.**
-
+science. We now
+[possess the abundance of data](http://jabberwocky.weecology.org/2013/08/12/ignite-talk-big-data-in-ecology/)
+necessary to tackle prediction, the methods to develop predictive models from
+these data (e.g., machine learning, hierarchical modeling), and the mathematical
+and computational technology to develop and assess models from across the
+data-driven to theory-driven spectrum. I will develop and test predictive models
+for ecology across different levels of organization, ecosystems, and the
+diversity of life. I will build tools to make data-intensive science easier and
+train the next generation of scientists in data-intensive approaches. In
+combination, **the impact of my work will be to make ecology a more predictive
+and data-intensive science that is capable of addressing the major ecological
+and environmental challenges of our era.**
 
 ## 1.2 Fundamental Question
 
@@ -39,59 +37,59 @@ My research will focus on one of the most fundamental questions in ecology:
 
 This question is fundamental to knowing how well we understand ecological
 systems, because if we cannot predict how they will change we do not understand
-how they operate. As such, answering this fundamental question will also require
-understanding a second fundamental question. What governs the structure,
-dynamics, and fluxes of ecological systems. This question is also fundamental to
-the application of ecology in management and policy decisions. In order to
-protect at risk species, conserve biodiversity, and maintain ecosystem services,
-we need to be able to predict how they will respond to stresses like climate and
-land use change, and potential interventions such as the creation of reserves
-and the removal of invasive species.
+how they operate. As such, answering this fundamental question requires
+understanding what governs the structure, dynamics, and fluxes of ecological
+systems. This question is also fundamental to the application of ecology in
+management and policy decisions. To protect at risk species, conserve
+biodiversity, and maintain ecosystem services, we need to be able to predict how
+nature responds to stresses like climate and land use change, and potential
+interventions such as the creation of reserves and the removal of invasive
+species.
 
-Specifically I will focus on making forecasts for three major areas of ecology:
-1) the abundance of individual species; 2) the structure of communities (groups
-of species in the same area); and 3) the behavior of entire ecosystems in terms
-of fluxes and ecosystem services. I will seek to capture how these different
-aspects of ecology change through time and vary across ecosystems and the
-diversity of life.
+I make forecasts for three major areas of ecology: 1) the abundance of
+individual species; 2) the structure of communities (groups of species in the
+same area); and 3) the behavior of entire ecosystems (e.g., fluxes and ecosystem
+services). I will seek to capture how these different aspects of ecology change
+through time and vary across ecosystems and the diversity of life.
 
 Populations, communities, and ecosystems are three of the central levels of
 organization in ecology. They are all amenable to data-intensive approaches due
-to both large amounts of existing data (from thousands of individual studies,
-citizen science projects, and coordinated government sampling) and to a massive
-influx of new data from a suite of ecological observatory networks. Focusing on
-these three aspects of ecology will allow us to predict how species
-distributions, biodiversity, rarity, ecosystem fluxes, and ecosystem services,
-will respond to anthropogenic pressures including shifts in climate, land-use
-change, and invasive species.
+to
+[large amounts of existing data](http://jabberwocky.weecology.org/2013/08/12/ignite-talk-big-data-in-ecology/)
+(from thousands of individual studies, citizen science projects, and coordinated
+government sampling) and to a massive influx of new data from
+[ecological observatory networks](http://www.neoninc.org/). Focusing on these
+dimensions of ecology will allow us to predict how species distributions,
+biodiversity, rarity, ecosystem fluxes, and ecosystem services, will respond to
+anthropogenic pressures including shifts in climate, changes in land-use, and
+invasive species.
 
-We will do this using a combination of data-driven and theory-driven approaches,
-using large compilations of ecological data to guide the improvement of both
-approaches and to determine the most promising routes forward. We will use far
-more comprehensive and sophisticated data compilations than have been brought to
-bear on these questions before including data on 100s of millions of species
-occurrence records, high temporal resolution climate and land use data (rather
-than long-term averages), and newly available text-mining and compilation based
-datasets on large numbers of species traits and species interactions.
+We will develop predictive models using a combination of data-driven and
+theory-driven approaches, using large compilations of ecological data to guide
+the improvement of both approaches and to determine the most promising routes
+forward. We will use far more comprehensive and sophisticated data compilations
+than have been brought to bear on these questions before, including data on 100s
+of millions of species occurrence records, high temporal resolution climate and
+land use data (rather than long-term averages), and newly available text-mining
+and compilation-based datasets on large numbers of species traits and species
+interactions.
 
 ## 1.3 Measuring Progress
 
-The measure of our success is how effectively we can predict independent data,
-and ultimately in how well we can predict the future state of ecological
-systems. We will measure the progress of our research at three levels: 1) How
-well we can predict the state of ecological systems in different locations. This
-serves as a pre-requisite for understanding temporal dynamics by helping us
-develop effective modeling strategies; 2) Forecasting and hindcasting within
-existing time-series at different lags by training models only on data from
-either the beginning or end of the time-series; and 3) Forecasting the future
-state of ecological systems. Each year we will publish predictions for the state
-of ecological systems 1-10 years from present and evaluate those predictions as
-new data is collected.
+The core measure of our success is how effectively we can predict independent
+data and in how well we can predict the future state of ecological systems. We
+will measure the progress of our research at three levels: 1) How well we can
+predict the state of ecological systems in different locations; 2) Forecasting
+and hindcasting within existing time-series at different lags by training models
+only on data from either the beginning or end of the time-series; and 3)
+Forecasting the future state of ecological systems. Each year we will publish
+predictions for the state of ecological systems 1-10 years in the future and
+evaluate those predictions as new data is collected.
 
 Beyond making progress in my own research a fuller measure of my impact will be
 whether ecology focuses more on prediction and data-intensive approaches. I will
 simultaneously advocate for a greater emphasis on these approaches and measure
-the influence of these efforts by running a series of "prediction challenges"
+the influence of these efforts by running a series of "forecasting challenges"
 (similar to [Kaggle competitions](http://www.kaggle.com/competitions) with a
 focus on ecological forecasting). Impact on the field will be measured using the
 level of participation as an indication of how interesting and popular these
