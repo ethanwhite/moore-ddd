@@ -61,13 +61,12 @@ invasive species.
 
 We will develop predictive models using a combination of data-driven and
 theory-driven approaches, using large compilations of ecological data to guide
-the improvement of both approaches and to determine the most promising routes
-forward. We will use far more comprehensive and sophisticated data compilations
-than have been brought to bear on these questions before, including data on 100s
-of millions of species occurrence records, high temporal resolution climate and
-land use data (rather than long-term averages), and newly available text-mining
-and compilation-based datasets on large numbers of species traits and species
-interactions.
+the improvement of both approaches. We will use far more comprehensive and
+sophisticated data compilations than have been brought to bear on these
+questions before, including data on 100s of millions of species occurrence
+records, high temporal resolution climate and land use data (rather than
+long-term averages), and newly available text-mining and compilation-based
+datasets on large numbers of species traits and species interactions.
 
 ## 1.3 Measuring Progress
 
