@@ -1,10 +1,5 @@
 # 1. Fundamental Question and Five-Year Impact
 
-*What do you envision as the five-year impact of your work on one or more of the
-natural sciences? Is there a key, fundamental question that you are trying to
-answer? How will you measure progress towards answering this question over the
-five years?*
-
 ## 1.1 Impact
 
 While ecologists often justify their research based on predicting how nature
@@ -99,13 +94,6 @@ to predict the future state of ecological systems.
 
 
 # 2. Advancing Data Science Methodologies and Building Human Capital
-
-*How will you advance data science methodologies, such as statistics, machine
-learning, automated inference, etc., to achieve this goal? We are particularly
-interested in the ways that the data science methodologies that you propose to
-develop can be applied to other fields beyond the one you focus on and
-shared. Please discuss these plans. What work products do you plan to make open
-source?*
 
 There is too much data and too many important problems to be addressed by the
 small number of individuals with the combination of computational and analytical
@@ -212,3 +200,18 @@ open using open source and open access licenses. We will use open notebooks to
 make the development and testing of our ideas available to the scientific
 community in real time. All papers will be posted as preprints prior to
 submission and published open access.
+
+# Questions
+
+*What do you envision as the five-year impact of your work on one or more of the
+natural sciences? Is there a key, fundamental question that you are trying to
+answer? How will you measure progress towards answering this question over the
+five years?*
+
+*How will you advance data science methodologies, such as statistics, machine
+learning, automated inference, etc., to achieve this goal? We are particularly
+interested in the ways that the data science methodologies that you propose to
+develop can be applied to other fields beyond the one you focus on and
+shared. Please discuss these plans. What work products do you plan to make open
+source?*
+
