@@ -199,17 +199,3 @@ completely as possible. We will use
 our science available in real time. All code will be open source, all training
 material will be open access, and all papers will be open access and posted as
 preprints prior to submission.
-
-# Questions
-
-*What do you envision as the five-year impact of your work on one or more of the
-natural sciences? Is there a key, fundamental question that you are trying to
-answer? How will you measure progress towards answering this question over the
-five years?*
-
-*How will you advance data science methodologies, such as statistics, machine
-learning, automated inference, etc., to achieve this goal? We are particularly
-interested in the ways that the data science methodologies that you propose to
-develop can be applied to other fields beyond the one you focus on and
-shared. Please discuss these plans. What work products do you plan to make open
-source?*
