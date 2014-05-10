@@ -41,7 +41,7 @@ nature responds to stresses such as climate and land-use change, and potential
 interventions such as the creation of reserves and the removal of invasive
 species.
 
-I make forecasts for three major areas of ecology: 1) the abundance of
+I will make forecasts for three major areas of ecology: 1) the abundance of
 individual species; 2) the structure of communities (groups of species in the
 same area); and 3) the behavior of entire ecosystems (e.g. fluxes and ecosystem
 services). I will seek to capture how these different aspects of ecology change
