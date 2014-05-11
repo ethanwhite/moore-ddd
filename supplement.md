@@ -28,8 +28,8 @@ our time.**
 
 ## 1.2 Fundamental Question
 
-My research will focus on one of the most fundamental questions in ecology:
-**what will ecological systems look like in the future?**
+I will focus on one of the fundamental questions in ecology:
+**what will nature look like in the future?**
 
 This question is fundamental to knowing how well we understand ecological
 systems because, if we cannot predict how they will change, we do not understand
@@ -62,14 +62,14 @@ biodiversity, rarity, ecosystem fluxes, and ecosystem services will respond to
 anthropogenic pressures including shifts in climate, changes in land-use, and
 invasive species.
 
-We will develop predictive models using a combination of data-driven and
+We will develop predictive models using both data-driven and
 theory-driven approaches, using large compilations of ecological data to
 evaluate and improve the models. We will use far more comprehensive and
 sophisticated data compilations than have been brought to bear on these
 questions before, including data on hundreds of millions of species occurrence
 records, high temporal resolution climate and land-use data, and newly available
-text-mining and compilation-based datasets on large numbers of species traits
-and species interactions.
+text-mining and compilation-based data on large numbers of species traits
+and interactions.
 
 ## 1.3 Measuring Progress
 
