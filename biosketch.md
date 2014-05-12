@@ -84,7 +84,7 @@ models in biology using hierarchical Bayesian approaches. Ecology Letters
 allows ecologists to collaborate on the discovery and use of available
 ecological datasets
 ([http://ecologicaldata.org](http://ecologicaldata.org)). The site has been
-viewed nearly 70,000 times by users in over 140 countries.
+viewed nearly 75,000 times by users in over 140 countries.
 
 **EcoData Retriever:** Leader of an open source software project that downloads,
 cleans up, restructures, and installs ecological datasets so that scientists can
@@ -93,23 +93,24 @@ focus on doing science
 [available on GitHub](https://github.com/weecology/retriever). Altmetrics show
 that the Retriever is
 [highly recommended and highly cited](http://impactstory.org/ethanwhite/product/37058b0ebf0a11e1bdf912313d1a5e63). The
-installers were downloaded over 230 times in the last two weeks.
+installers for the last release have been downloaded over 500 times.
 
 **Computational Biology Course & Website Development:** Developed a suite of
 university courses on computational methods for biologists. Course material is
 available online to facilitate broader learning
 ([http://programmingforbiologists.org](http://programmingforbiologists.org)) and
-has been viewed over 125,000 times by users in over 150 countries.
+has been viewed over 140,000 times by users in over 170 countries.
 
 **Software Carpentry:** Advisory board member, instructor, and maintainer of
-intermediate material for a non-profit that provides online and in-person
-training in computational best practices to scientists
+intermediate material for a non-profit that provides training in computational
+best practices to scientists
 ([http://software-carpentry.org](http://software-carpentry.org)). Examples of my
 contributions to the instructional material include
 [an introduction to Python for non-Python programmers](http://nbviewer.ipython.org/github/swcarpentry/bc/blob/master/intermediate/python/01-intro-python.ipynb)
 and material on
 [modularization and documentation](http://nbviewer.ipython.org/github/swcarpentry/bc/blob/master/intermediate/python/02-modularization-documentation.ipynb). I
-have organized and taught a total of six workshops for ecologists in the last two years.
+have organized and taught 8 workshops in the last 2 years, and members of my
+research group been involved in more than 10 additional workshops.
 
 **Impactstory Board of Directors:** Member of the board of directors for
 [Impactstory](http://impactstory.org/), a non-profit whose goal is to improve
