@@ -18,49 +18,48 @@ science. We now possess the abundance of data necessary to tackle prediction,
 the methods to develop predictive models from these data (e.g. machine learning,
 hierarchical modeling), and the mathematical and computational technology to
 develop and assess models from across the data-driven to theory-driven spectrum
-([Luo et al. 2011](http://www.researchgate.net/publication/51560941_Ecological_forecasting_and_data_assimilation_in_a_data-rich_era/file/9fcfd50c6a153453cd.pdf)). I will develop and test predictive models for ecology across
-different levels of organization, ecosystems, and the diversity of life. I will
-build tools to make data-intensive science easier and train the next generation
-of scientists in data-intensive approaches. In combination, **the impact of my
-work will be to make ecology a more predictive and data-intensive science that
-is capable of addressing the major ecological and environmental challenges of
-our time.**
+([Luo et al. 2011](http://www.researchgate.net/publication/51560941_Ecological_forecasting_and_data_assimilation_in_a_data-rich_era/file/9fcfd50c6a153453cd.pdf)). I
+will develop and test predictive models for ecology across different levels of
+organization, ecosystems, and the diversity of life. I will build tools to make
+data-intensive science easier and train the next generation of scientists in
+data-intensive approaches. All of this work will be conducted in an open,
+collaborative, and reproducible manner. This will broaden its impact by
+increasing knowledge of the approaches and building community to further the
+development of the tools. In combination, **the impact of my work will be to
+make ecology a more predictive, data-intensive, and open science that is capable
+of addressing the major ecological and environmental challenges of our time.**
 
 ## 1.2 Fundamental Question
 
-I will focus on one of the fundamental questions in ecology:
-**what will nature look like in the future?**
-
-This question is fundamental to knowing how well we understand ecological
-systems because, if we cannot predict how they will change, we do not understand
-how they operate. As such, answering this fundamental question requires
-understanding what governs the structure, dynamics, and fluxes of ecological
-systems. This question is also fundamental to the application of ecology in
-management and policy decisions. To protect at-risk species, conserve
-biodiversity, and maintain ecosystem services, we need to be able to predict how
-nature responds to stresses such as climate and land-use change, and potential
-interventions such as the creation of reserves and the removal of invasive
-species
+I will focus on one of the fundamental questions in ecology: **what will nature
+look like in the future?**  
+This question is fundamental to knowing how well we
+understand ecological systems because, if we cannot predict how they will
+change, we do not understand how they operate. As such, answering this
+fundamental question requires understanding what governs the structure,
+dynamics, and fluxes of ecological systems. This question is also fundamental to
+the application of ecology in management and policy decisions. To protect
+at-risk species, conserve biodiversity, and maintain ecosystem services, we need
+to be able to predict how nature responds to stresses such as climate and
+land-use change, and potential interventions such as the creation of reserves
+and the removal of invasive species
 ([Clark et al. 2001](http://www.researchgate.net/publication/11868797_Ecological_forecasts_an_emerging_imperative/file/d912f511d1ae682bae.pdf),
 [Evans et al. 2013](http://rspb.royalsocietypublishing.org/content/280/1771/20131452.full)).
 
 I will make forecasts for three major areas of ecology: 1) the abundance of
 individual species; 2) the structure of communities (groups of species in the
-same region); and 3) the behavior of entire ecosystems (e.g. fluxes and ecosystem
-services). I will seek to capture how these different aspects of ecology change
-through time and vary across ecosystems and the diversity of life.
-
-Populations, communities, and ecosystems are three of the central levels of
-organization in ecology. They are all amenable to data-intensive approaches due
-to
+same region); and 3) the function of entire ecosystems. Populations,
+communities, and ecosystems are three of the central levels of organization in
+ecology. They are all amenable to data-intensive approaches due to
 [large amounts of existing data](http://jabberwocky.weecology.org/2013/08/12/ignite-talk-big-data-in-ecology/)
-(from thousands of individual studies, citizen science projects, and coordinated
-government sampling) and to a massive influx of new data from
+(from individual studies, citizen science projects, and coordinated government
+sampling) and to a massive influx of new data from
 [ecological observatory networks](http://www.neoninc.org/). Focusing on these
 dimensions of ecology will allow us to predict how species distributions,
 biodiversity, rarity, ecosystem fluxes, and ecosystem services will respond to
 anthropogenic pressures including shifts in climate, changes in land-use, and
-invasive species.
+invasive species. I will seek to capture how these different aspects of ecology
+change through time and vary across ecosystems and the diversity of life.
 
 We will develop predictive models using both data-driven and theory-driven
 approaches, using large compilations of ecological data to evaluate and improve
@@ -83,13 +82,20 @@ ecological systems one to ten years into the future and evaluate those
 predictions every year as new data is collected.
 
 Beyond my own research progress, a fuller measure of my impact will be whether
-ecology as a field focuses more on prediction and data-intensive
-approaches. By explicitly publishing forecasts, and evaluating their accuracy,
-as is done in disciplines with successful forecasting, such as weather and climate (e.g.,
+ecology as a field focuses more on prediction and data-intensive approaches. I
+hope to create an environment that fosters forecasting by explicitly publishing
+forecasts and evaluating their accuracy. This will help create a culture focused
+on producing better forecasts, like that in disciplines with successful
+forecasting, such as weather and climate (e.g.,
 [Kalnay 2003](http://catdir.loc.gov/catdir/samples/cam033/2001052687.pdf)). To
-accelerate this transition I will simultaneously advocate for a greater emphasis
-on these approaches, and measure the influence of these efforts, by running a
-series of "forecasting challenges" (similar to
+accelerate this transition I will conduct this research in a fully open manner,
+using open notebooks, public code repositories, and social media as outreach for
+the ideas and to encourage collaboration. All code will be open source, all
+training material will be open access, and all papers will be open access and
+posted as preprints prior to submission.
+
+I will measure the influence of these efforts, and further the outreach, by
+running a series of "forecasting challenges" (similar to
 [Kaggle competitions](http://www.kaggle.com/competitions) but with a focus on
 ecological forecasting). Impact on the field will be measured using the level of
 participation as an indication of how interesting and popular these approaches
@@ -113,10 +119,13 @@ methodologies for working with the variety dimension of big data by building
 software that automates the acquisition and assembly of heterogeneous data
 sources; 2) developing approaches for modeling complex high-dimensional data and
 making them openly available in easy-to-use software; and 3) training scientists
-in data science skills. In combination, these efforts will allow more scientists
-to engage in data-intensive approaches, and will let them spend more time
-focusing on doing science and less time wrestling with data.
-
+in data science skills. To maximize the impact of these efforts all tools and
+training material will be developed in public GitHub repositories using open
+source and open access licenses. I will use this openness to actively encourage
+collaboration from both scientists members of the technology community. In
+combination, these efforts will allow more scientists to engage in
+data-intensive approaches, and will let them spend more time focusing on doing
+science and less time wrestling with data.
 
 ## 2.1 Methodologies for Automatically Combining Heterogeneous Datasets
 
@@ -199,12 +208,3 @@ communities. This will help produce a new generation of data-intensive
 scientists with the ability to work collaboratively to address fundamental
 questions using the variety, volume, and velocity of data that are now
 available.
-
-# 3. Openness
-
-Science progresses most rapidly when research is made open as quickly and
-completely as possible. We will use
-[open notebooks](https://en.wikipedia.org/wiki/Open_Notebook_Science) to make
-our science available in real time. All code will be open source, all training
-material will be open access, and all papers will be open access and posted as
-preprints prior to submission.
