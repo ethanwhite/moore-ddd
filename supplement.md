@@ -6,7 +6,7 @@ Despite the critical need to forecast how nature will respond to global change,
 ecology is still primarily a descriptive science focused on understanding,
 rather than predicting, nature. Little research generates meaningful predictions
 and, when predictions are attempted, they tend to focus on a single
-ecosystem. This lack of prediction is slowing progress in ecology, because the
+ecosystem. This lack of prediction is slowing progress in ecology ([McGill 2012a](https://dynamicecology.wordpress.com/2012/11/27/ecologists-need-to-do-a-better-job-of-prediction-part-i-the-insidious-evils-of-anova/)), because the
 field lacks meaningful benchmarks for comparing and improving models and fails
 to develop models that can be applied to understudied ecosystems and
 species. Despite having recognized the importance of forecasting for over a decade
@@ -87,7 +87,9 @@ ecology as a field focuses more on prediction and data-intensive approaches. I
 hope to create an environment that fosters forecasting by explicitly publishing
 forecasts and evaluating their accuracy. This will help create a culture focused
 on producing better forecasts, like that in disciplines with successful
-forecasting, such as weather and climate (e.g.,
+forecasting, such as weather and climate
+([McGill 2012b](https://dynamicecology.wordpress.com/2013/01/09/ecologists-need-to-do-a-better-job-of-prediction-part-ii-mechanism-vs-pattern/);
+see e.g.
 [Kalnay 2003](http://catdir.loc.gov/catdir/samples/cam033/2001052687.pdf)). To
 accelerate this transition I will conduct this research in a fully open manner,
 using open notebooks, public code repositories, and social media as outreach for
